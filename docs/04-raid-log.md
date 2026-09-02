@@ -25,8 +25,7 @@ It is reviewed regularly throughout delivery to ensure that threats to scope, sc
 | R-02 | UAT participants may have limited availability during the planned testing window | Medium | High | Project Manager | Confirm participants in advance and identify backup representatives | Open |
 | R-03 | Development may take longer than estimated due to unforeseen technical complexity | Medium | High | Technical Lead | Review estimates early and monitor progress against milestones | Open |
 | R-04 | Defects identified during QA or UAT may threaten release readiness | Medium | High | QA Lead | Prioritise defects by severity and maintain sufficient time for resolution and retesting | Open |
-| R-05 | Late scope changes may affect the fixed delivery timeline | Medium | High | Product Owner | Apply formal change assessment before accepting changes into scope | Open |
-
+| R-05 | Late scope changes may affect the fixed delivery timeline | Medium | High | Product Owner |  | Open | Apply formal change assessment before accepting changes into scope. CR-01 approved in Week 3; remaining schedule contingency to be monitored.
 ---
 
 ## Assumptions
@@ -103,6 +102,7 @@ Escalation does not transfer ownership of the problem away from the project team
 
 **Overall RAID status: Green**
 
-No active issues currently threaten the project schedule.
+CR-01 was approved following impact assessment and can currently be accommodated within the existing delivery schedule.
 
-Several risks and dependencies require monitoring, particularly requirements approval, stakeholder availability and test environment readiness.
+Risk R-05 remains open because the approved change has reduced available schedule contingency. Any further scope change or development delay will be assessed against the Week 8 UAT and Week 10 production-release milestones.
+
