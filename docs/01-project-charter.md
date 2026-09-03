@@ -139,8 +139,8 @@ The project will be considered successful when:
 - Key stakeholders are informed of release readiness
 - Project documentation and outstanding actions are appropriately closed
 
-## Current Status
+## Status at Project Initiation
 
-**Status: Green — Project Initiation**
+**RAG Status: Green**
 
-The project has been authorised to proceed. Initial scope and objectives have been established, and stakeholder identification and detailed planning are the next activities.
+The project was approved to proceed into detailed planning and requirements analysis.
