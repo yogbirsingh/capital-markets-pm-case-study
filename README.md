@@ -63,7 +63,7 @@ Both events are assessed, tracked and managed without moving the planned Week 10
 | Artefact | Purpose |
 |---|---|
 | [Project Charter](docs/01-project-charter.md) | Defines the business problem, objectives, scope and success criteria |
-| [Stakeholder Map](docs/02-stakeholder-map.md) | Identifies stakeholders, influence and engagement approach |
+| [Stakeholder Analysis](docs/02-stakeholder-analysis.md) | Identifies stakeholders, influence and engagement approach |
 | [Delivery Plan](docs/03-delivery-plan.md) | Defines activities, milestones, dependencies and delivery gates |
 | [RAID Log](docs/04-raid-log.md) | Tracks risks, assumptions, issues, dependencies and mitigation |
 | [Change Request CR-01](docs/05-change-request.md) | Records assessment and approval of an in-flight scope change |
