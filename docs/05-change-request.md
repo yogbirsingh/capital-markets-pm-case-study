@@ -110,7 +110,7 @@ Accepting the change reduces available schedule contingency.
 
 This increases the impact of any subsequent development or testing delays.
 
-Risk `R-05 — Late scope changes may affect the fixed delivery timeline` remains open and will continue to be monitored.
+Risk `R-05 — Late scope changes may affect the fixed delivery timeline` was monitored throughout delivery and was closed following successful completion of the Week 10 production release.
 
 ## Decision
 
@@ -130,12 +130,12 @@ Approval is conditional on:
 
 | Action | Owner | Target | Status |
 |---|---|---|---|
-| Update requirements to include additional field | Business Analyst | Week 3 | Open |
-| Update development estimate | Technical Lead | Week 3 | Open |
-| Add implementation work to delivery board | Project Manager | Week 3 | Open |
-| Update QA test coverage | QA Lead | Week 4 | Open |
-| Include new field within UAT scenarios | BA / QA | Week 7 | Open |
-| Monitor reduced schedule contingency | Project Manager | Ongoing | Open |
+| Update requirements to include additional field | Business Analyst | Week 3 | Complete |
+| Update development estimate | Technical Lead | Week 3 | Complete |
+| Add implementation work to delivery board | Project Manager | Week 3 | Complete |
+| Update QA test coverage | QA Lead | Week 4 | Complete |
+| Include new field within UAT scenarios | BA / QA | Week 7 | Complete |
+| Monitor reduced schedule contingency | Project Manager | Ongoing | Closed – release completed as planned 
 
 ## Project Status Following Decision
 
