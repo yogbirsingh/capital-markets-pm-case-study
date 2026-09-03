@@ -1,18 +1,18 @@
 # Capital Markets Project Management Case Study
 
-> **Simulated project:** This case study is an independent learning project created to demonstrate project management practices within a capital markets technology environment. It is not affiliated with any company, financial institution, regulator, or live market infrastructure programme.
+> **Simulated project:** This is an independent learning project created to demonstrate project management practices within a capital markets technology environment. It is not affiliated with any company, financial institution, regulator, or live market infrastructure programme.
 
 ## Project Overview
 
-This case study simulates the delivery of a regulatory data change within a capital markets technology environment.
+This case study simulates the delivery of a regulatory reference data change within a capital markets technology environment.
 
 A new regulatory requirement requires additional reference data to be made available to financial institutions through an existing market data service. The change must be delivered before a fixed regulatory deadline and requires coordination across Product, Business Analysis, Development, QA and external stakeholders.
 
-The case study follows the project from initial planning through delivery, testing and release readiness.
+The case study follows the project from initiation and requirements through development, testing, UAT, production release and closure.
 
 ## My Role
 
-I act as the **Project Manager supporting the delivery of the change**, with responsibility for coordinating activities across the project team.
+I act as the **Project Manager** responsible for coordinating delivery across the project team.
 
 The role focuses on:
 
@@ -25,12 +25,13 @@ The role focuses on:
 - Change control
 - UAT coordination
 - Agile delivery tracking
+- Release readiness and project closure
 
 Technical design, detailed business analysis and software development remain the responsibility of the relevant specialists within the simulated project team.
 
 ## Project Team
 
-The delivery team consists of:
+The simulated delivery team consists of:
 
 - Programme Manager
 - Project Manager
@@ -46,36 +47,47 @@ The Project Manager coordinates delivery across these functions rather than acti
 
 ## Project Lifecycle
 
-**Initiation → Planning → Requirements → Delivery → UAT → Release → Retrospective**
-
-## Project Artefacts
-
-The repository will contain the following project artefacts:
-
-| Artefact | Purpose |
-|---|---|
-| Project Charter | Defines the business problem, objectives, scope and success criteria |
-| Stakeholder Analysis | Identifies key stakeholders and engagement requirements |
-| Delivery Plan | Defines milestones, activities, dependencies and target dates |
-| RAID Log | Tracks risks, assumptions, issues and dependencies |
-| Project Board | Tracks delivery activities and work in progress |
-| Change Request | Demonstrates assessment and control of a scope change |
-| UAT Plan | Coordinates business acceptance testing and release readiness |
-| Status Report | Communicates project health, progress, risks and next steps |
-| Retrospective | Captures lessons learned and improvement opportunities |
-
-## Scenario
+**Initiation → Planning → Requirements → Delivery → Testing → UAT → Release → Closure**
 
 The project begins with an agreed regulatory requirement and fixed implementation deadline.
 
-During delivery, the project will encounter realistic challenges including:
+During delivery, two significant events are managed:
 
-- An external stakeholder requesting a change after requirements have been agreed
-- A dependency affecting development
-- A defect affecting UAT readiness
-- A potential milestone delay requiring assessment and escalation
+1. **CR-01:** An external stakeholder requests an additional reference data field after the original requirements have been approved.
+2. **I-01:** The primary external UAT representative becomes unavailable during the planned UAT window.
 
-These events will be reflected consistently across the project plan, RAID log, project board and status reporting.
+Both events are assessed, tracked and managed without moving the planned Week 10 production-release milestone.
+
+## Project Artefacts
+
+| Artefact | Purpose |
+|---|---|
+| [Project Charter](docs/01-project-charter.md) | Defines the business problem, objectives, scope and success criteria |
+| [Stakeholder Map](docs/02-stakeholder-map.md) | Identifies stakeholders, influence and engagement approach |
+| [Delivery Plan](docs/03-delivery-plan.md) | Defines activities, milestones, dependencies and delivery gates |
+| [RAID Log](docs/04-raid-log.md) | Tracks risks, assumptions, issues, dependencies and mitigation |
+| [Change Request CR-01](docs/05-change-request.md) | Records assessment and approval of an in-flight scope change |
+| [UAT Plan](docs/06-uat-plan.md) | Defines UAT approach, scenarios, acceptance criteria and sign-off |
+| [Week 9 Status Report](docs/07-status-report.md) | Communicates project health, milestones, RAID and next steps |
+| [Release & Validation](docs/08-release-and-validation.md) | Records release readiness, deployment and post-release validation |
+| [Retrospective & Closure](docs/09-retrospective.md) | Captures project outcome, lessons learned and closure activities |
+
+## Delivery Outcome
+
+**Final Project Status: Green**
+
+The simulated project achieved its planned Week 10 production release milestone.
+
+- Requirements approved
+- Development completed
+- CR-01 assessed and incorporated
+- System and integration testing completed
+- UAT completed and signed off
+- UAT availability issue I-01 resolved
+- Operational and release readiness confirmed
+- Production release completed successfully
+- Post-release validation passed
+- Project closed in Week 11
 
 ## Tools & Approach
 
@@ -87,13 +99,4 @@ These events will be reflected consistently across the project plan, RAID log, p
 - Change control
 - UAT coordination
 - Stakeholder management
-
-## Repository Structure
-
-```text
-capital-markets-pm-case-study/
-│
-├── README.md
-├── docs/
-├── diagrams/
-└── templates/
+- Project status reporting
