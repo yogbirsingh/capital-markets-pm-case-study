@@ -21,29 +21,25 @@ It is reviewed regularly throughout delivery to ensure that threats to scope, sc
 
 | ID | Risk | Probability | Impact | Owner | Mitigation | Status |
 |---|---|---|---|---|---|---|
-| R-01 | External stakeholder approval of requirements may be delayed | Medium | High | Project Manager | Schedule early review sessions and track outstanding approvals | Open |
-| R-02 | UAT participants may have limited availability during the planned testing window | Medium | High | Project Manager | Confirm participants in advance and identify backup representatives | Closed - materialised as I-01 and resolved
-| R-03 | Development may take longer than estimated due to unforeseen technical complexity | Medium | High | Technical Lead | Review estimates early and monitor progress against milestones | Open |
-| R-04 | Defects identified during QA or UAT may threaten release readiness | Medium | High | QA Lead | Prioritise defects by severity and maintain sufficient time for resolution and retesting | Open |
-| R-05 | Late scope changes may affect the fixed delivery timeline | Medium | High | Product Owner |  | Open | Apply formal change assessment before accepting changes into scope. CR-01 approved in Week 3; remaining schedule contingency to be monitored.
+| R-01 | External stakeholder approval of requirements may be delayed | Medium | High | Project Manager | Schedule early review sessions and track outstanding approvals | Closed – requirements approved in Week 2 |
+| R-02 | UAT participants may have limited availability during the planned testing window | Medium | High | Project Manager | Confirm participants in advance and identify backup representatives | Closed – materialised as I-01 and resolved |
+| R-03 | Development may take longer than estimated due to unforeseen technical complexity | Medium | High | Technical Lead | Review estimates early and monitor progress against milestones | Closed – development completed in Week 6 |
+| R-04 | Defects identified during QA or UAT may threaten release readiness | Medium | High | QA Lead | Prioritise defects by severity and maintain sufficient time for resolution and retesting | Closed – testing completed with no blocking defects |
+| R-05 | Late scope changes may affect the fixed delivery timeline | Medium | High | Product Owner | Apply formal change control and assess schedule impact before approval | Closed – CR-01 delivered without moving the release milestone |
 ---
 
 ## Assumptions
 
 | ID | Assumption | Owner | Validation | Status |
 |---|---|---|---|---|
-| A-01 | Required development resources will remain available throughout delivery | Project Manager | Confirm resource allocation with Technical Lead | Valid |
-| A-02 | External stakeholders will participate in requirements validation and UAT | Project Manager | Confirm named representatives and availability | To Validate |
-| A-03 | Existing platform architecture can support the required change without major redesign | Technical Lead | Confirm through technical assessment | To Validate |
-| A-04 | Required test environments will be available according to the delivery plan | QA Lead | Confirm environment schedule before QA begins | To Validate |
+| A-01 | Required development resources will remain available throughout delivery | Project Manager | Confirm resource allocation with Technical Lead | Validated |
+| A-02 | External stakeholders will participate in requirements validation and UAT | Project Manager | Confirm named representatives and availability | Validated |
+| A-03 | Existing platform architecture can support the required change without major redesign | Technical Lead | Confirm through technical assessment | Validated |
+| A-04 | Required test environments will be available according to the delivery plan | QA Lead | Confirm environment schedule before QA begins | Validated |
 
 ---
 
 ## Issues
-
-No material project issues have been identified during project initiation.
-
-Issues will be recorded here when a risk or other project event becomes an active problem requiring resolution.
 
 | ID | Issue | Impact | Owner | Resolution Action | Status |
 |---|---|---|---|---|---|
@@ -55,12 +51,12 @@ Issues will be recorded here when a risk or other project event becomes an activ
 
 | ID | Dependency | Required By | Owner | Impact if Delayed | Status |
 |---|---|---|---|---|---|
-| D-01 | Requirements approval from Product and relevant external stakeholders | Week 2 | BA / Product Owner | Development start may be delayed | Open |
-| D-02 | Technical assessment and delivery estimate | Week 2 | Technical Lead | Development plan cannot be confirmed | Open |
-| D-03 | Test environment availability | Week 6 | QA Lead | QA and UAT milestones may be delayed | Open |
-| D-04 | External stakeholder availability for UAT | Week 8 | Project Manager | UAT sign-off may be delayed | Open |
-| D-05 | UAT sign-off | Week 8 | Product Owner | Release readiness approval cannot complete | Open |
-| D-06 | Operational readiness confirmation | Week 9 | Operations | Production release cannot proceed | Open |
+| D-01 | Requirements approval from Product and relevant external stakeholders | Week 2 | BA / Product Owner | Development start may be delayed | Complete |
+| D-02 | Technical assessment and delivery estimate | Week 2 | Technical Lead | Development plan cannot be confirmed | Complete |
+| D-03 | Test environment availability | Week 6 | QA Lead | QA and UAT milestones may be delayed | Complete |
+| D-04 | External stakeholder availability for UAT | Week 8 | Project Manager | UAT sign-off may be delayed | Complete |
+| D-05 | UAT sign-off | Week 8 | Product Owner | Release readiness approval cannot complete | Complete |
+| D-06 | Operational readiness confirmation | Week 9 | Operations | Production release cannot proceed | Complete |
 
 ---
 
@@ -91,16 +87,19 @@ A RAID item should be considered for escalation when it:
 
 Escalation does not transfer ownership of the problem away from the project team. It ensures that the appropriate level of management has visibility and can support resolution.
 
-## Current RAID Summary
+## Final RAID Summary
 
-**Overall RAID status: Green**
+**Overall RAID Status: Green**
 
-Issue I-01 has been resolved. A backup external UAT participant was confirmed and all affected UAT scenarios were completed within Week 8.
+All identified project risks have been closed following successful completion of delivery.
 
-UAT has been successfully completed and business sign-off has been obtained.
+Risk R-02 materialised as issue I-01 when the primary external UAT representative became unavailable. A backup participant was confirmed and the affected UAT scenarios were completed within Week 8.
 
-Risk R-02 is now closed following resolution of I-01.
+Risk R-05 was actively monitored following approval of CR-01 because the additional scope reduced schedule contingency. The change was successfully delivered without moving the Week 10 production release milestone.
 
-Risk R-05 remains open due to reduced schedule contingency following CR-01, but no current issue is forecast to affect the Week 10 production release milestone.
+All project assumptions were validated and all identified dependencies were satisfied.
 
+There are no unresolved project issues or dependencies requiring further action.
+
+The project proceeded to successful production release in Week 10 and formal closure in Week 11.
 The project can proceed to the Week 9 release readiness review.
