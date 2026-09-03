@@ -42,11 +42,11 @@ UAT can begin when:
 
 | ID | Scenario | Expected Result | Status |
 |---|---|---|---|
-| UAT-01 | Validate standard reference data submission | Submission processed successfully | Not Started |
-| UAT-02 | Validate required regulatory data fields | Required fields processed correctly | Not Started |
-| UAT-03 | Validate supplementary field introduced by CR-01 | New field accepted and returned correctly | Not Started |
-| UAT-04 | Validate submission with invalid data | Appropriate validation response returned | Not Started |
-| UAT-05 | Validate existing functionality after change | Existing functionality remains unaffected | Not Started |
+| UAT-01 | Validate standard reference-data submission | Submission processed successfully | Passed |
+| UAT-02 | Validate required regulatory data fields | Required fields processed correctly | Passed |
+| UAT-03 | Validate supplementary field introduced by CR-01 | New field accepted and returned correctly | Passed |
+| UAT-04 | Validate submission with invalid data | Appropriate validation response returned | Passed |
+| UAT-05 | Validate existing functionality after change | Existing functionality remains unaffected | Passed |
 
 ## Defect Management
 
@@ -81,6 +81,14 @@ Successful UAT completion is required before the project proceeds to the Week 9 
 
 ## Current Status
 
-**UAT Status: Planned**
+**UAT Status: Complete**
 
-UAT preparation is progressing in line with the delivery plan.
+Issue I-01 affected external stakeholder availability during the planned UAT window.
+
+A backup participant was confirmed and the affected scenarios were rescheduled within Week 8.
+
+All planned UAT scenarios were completed successfully, with no Critical or High defects outstanding.
+
+Business acceptance and UAT sign-off were obtained.
+
+The project can proceed to the Week 9 release readiness review.
