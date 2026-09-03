@@ -22,7 +22,7 @@ It is reviewed regularly throughout delivery to ensure that threats to scope, sc
 | ID | Risk | Probability | Impact | Owner | Mitigation | Status |
 |---|---|---|---|---|---|---|
 | R-01 | External stakeholder approval of requirements may be delayed | Medium | High | Project Manager | Schedule early review sessions and track outstanding approvals | Open |
-| R-02 | UAT participants may have limited availability during the planned testing window | Medium | High | Project Manager | Confirm participants in advance and identify backup representatives | Open |
+| R-02 | UAT participants may have limited availability during the planned testing window | Medium | High | Project Manager | Confirm participants in advance and identify backup representatives | Materialised - see I-01
 | R-03 | Development may take longer than estimated due to unforeseen technical complexity | Medium | High | Technical Lead | Review estimates early and monitor progress against milestones | Open |
 | R-04 | Defects identified during QA or UAT may threaten release readiness | Medium | High | QA Lead | Prioritise defects by severity and maintain sufficient time for resolution and retesting | Open |
 | R-05 | Late scope changes may affect the fixed delivery timeline | Medium | High | Product Owner |  | Open | Apply formal change assessment before accepting changes into scope. CR-01 approved in Week 3; remaining schedule contingency to be monitored.
@@ -45,9 +45,9 @@ No material project issues have been identified during project initiation.
 
 Issues will be recorded here when a risk or other project event becomes an active problem requiring resolution.
 
-| ID | Issue | Impact | Owner | Action | Target | Status |
-|---|---|---|---|---|---|---|
-| — | No current issues | — | — | — | — | — |
+| ID | Issue | Impact | Owner | Resolution Action | Status |
+|---|---|---|---|---|---|
+| I-01 | Primary external UAT representative became unavailable during the planned UAT window | Potential delay to UAT completion and sign-off | Project Manager | Activate backup participant, confirm availability and reschedule affected UAT scenarios within Week 8 | Open |
 
 ---
 
@@ -93,16 +93,12 @@ Escalation does not transfer ownership of the problem away from the project team
 
 ## Current RAID Summary
 
-| Category | Open | High Impact |
-|---|---:|---:|
-| Risks | 5 | 5 |
-| Assumptions requiring validation | 3 | — |
-| Issues | 0 | 0 |
-| Dependencies | 6 | 6 |
+**Overall RAID status: Amber**
 
-**Overall RAID status: Green**
+Risk R-02 has materialised as Issue I-01 following the unexpected unavailability of the primary external UAT representative during Week 8.
 
-CR-01 was approved following impact assessment and can currently be accommodated within the existing delivery schedule.
+A backup participant is being coordinated to complete the affected UAT scenarios within the existing UAT window.
 
-Risk R-05 remains open because the approved change has reduced available schedule contingency. Any further scope change or development delay will be assessed against the Week 8 UAT and Week 10 production-release milestones.
+The Week 10 production-release milestone remains achievable, but UAT completion and sign-off require active monitoring.
 
+Risk R-05 also remains open following approval of CR-01, as available schedule contingency has been reduced.
